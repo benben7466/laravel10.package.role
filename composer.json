@@ -1,0 +1,20 @@
+{
+    "name": "bzq/role",
+    "description": "role management system",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "benzhiqiang",
+            "email": "benben7466@qq.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\Package\\MyRolePackage\\": "src/"
+        }
+    }
+}
